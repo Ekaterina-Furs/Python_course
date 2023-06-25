@@ -11,7 +11,7 @@ for i in range(num):
     if value == 1:
         count += 1
 if count < num/2:
-    print(count)
+    print(f"Минимальное количество монет = {count}")
 else:
-    print (num-count)
+    print (f"Минимальное количество монет = {num-count}")
 
